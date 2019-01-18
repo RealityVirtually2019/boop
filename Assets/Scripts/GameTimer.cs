@@ -13,6 +13,12 @@ namespace TMPro.Examples {
         private TextMeshPro timeText;
         [SerializeField]
         private TextMeshPro winnerText;
+        [SerializeField]
+        private TextMeshPro mlpText;
+        [SerializeField]
+        private TextMeshPro ippText;
+
+        bool gameOver = false;
 
         int mlpScore = 0;
         int ippScore = 0;
@@ -32,7 +38,7 @@ namespace TMPro.Examples {
 
             if (laughing || Input.GetKeyDown(KeyCode.L))
             {
-                isPlaying = false;
+                isPlaying = false;              
                 DisplayWinner("MLP");
             }
 
@@ -46,21 +52,24 @@ namespace TMPro.Examples {
             {
                 timer = 0.0f;
                 isPlaying = true;
+                gameOver = false;
             }
         }
 
         void DisplayWinner(string winner)
         {
-            if (winner == "MLP")
+            if (winner == "MLP" && gameOver == false)
             {
                 mlpScore++;
+                mlpText.SetText("MLP: " + mlpScore);
             }
-            if (winner == "IPP")
+            if (winner == "IPP" && gameOver == false)
             {
                 ippScore++;
+                ippText.SetText("IPP: " + ippScore);
             }
-            print(winner + " is the winner!");
-            winnerText.SetText(winner);
+            winnerText.SetText(winner + " is the winner!");
+            gameOver = true;
         }
     }
 }
