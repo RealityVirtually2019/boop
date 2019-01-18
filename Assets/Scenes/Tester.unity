@@ -1085,7 +1085,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 92ec077a6a3d570419a3ae78090583e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  projectile: {fileID: 1315892065340946, guid: 6a73a2fc4bee97c498353254af4567a8, type: 2}
+  p1: {fileID: 1315892065340946, guid: 6a73a2fc4bee97c498353254af4567a8, type: 2}
+  p2: {fileID: 1775478050236432, guid: fc0e08a56845ea04e948d322307951af, type: 2}
+  p3: {fileID: 1633293841256390, guid: 889d8a9800087504f8826a524d2f5e05, type: 2}
   forceAmount: 10
   launcherMuzzle: {fileID: 1956943673}
   launchSound: {fileID: 8300000, guid: ce0193d05b828fe40abfa1c0219c9fc6, type: 3}
