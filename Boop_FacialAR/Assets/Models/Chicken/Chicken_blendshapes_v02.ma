@@ -1,6 +1,10 @@
 //Maya ASCII 2017 scene
 //Name: Chicken_blendshapes_v02.ma
+<<<<<<< HEAD
 //Last modified: Sat, Jan 19, 2019 05:09:22 PM
+=======
+//Last modified: Sat, Jan 19, 2019 04:54:41 PM
+>>>>>>> parent of a4667e8... Reimported Unity ARKit blendshape scenes
 //Codeset: UTF-8
 requires maya "2017";
 currentUnit -l centimeter -a degree -t film;
@@ -19154,7 +19158,11 @@ createNode joint -n "joint4" -p "|Chicken|root|r_foot";
 	setAttr ".jo" -type "double3" 0 0 -89.225779835071904 ;
 	setAttr ".bps" -type "matrix" 0.01351227979702696 -0.99990870497995321 -0 0 0.99990870497995321 0.01351227979702696 0 0
 		 0 -0 1 0 -0.12717713774323994 -0.77478946053709796 0.0078892311632169365 1;
+<<<<<<< HEAD
 createNode joint -n "joint5" -p "joint4";
+=======
+createNode joint -n "joint5" -p "|Chicken|root|r_foot|joint4";
+>>>>>>> parent of a4667e8... Reimported Unity ARKit blendshape scenes
 	rename -uid "0A83C0D1-7D43-A02E-9346-0A82D230B166";
 	addAttr -ci true -sn "liw" -ln "lockInfluenceWeights" -min 0 -max 1 -at "bool";
 	setAttr ".uoc" 1;
@@ -19163,7 +19171,11 @@ createNode joint -n "joint5" -p "joint4";
 	setAttr ".mxrl" -type "double3" 360 360 360 ;
 	setAttr ".bps" -type "matrix" 0.01351227979702696 -0.99990870497995321 0 0 0.99990870497995321 0.01351227979702696 0 0
 		 0 0 1 0 -0.12503589720975214 -0.93324126001519248 0.0078892311632169365 1;
+<<<<<<< HEAD
 createNode joint -n "joint6" -p "joint5";
+=======
+createNode joint -n "joint6" -p "|Chicken|root|r_foot|joint4|joint5";
+>>>>>>> parent of a4667e8... Reimported Unity ARKit blendshape scenes
 	rename -uid "ECD0AA07-F74F-6EAC-2E0E-FCA8D53B036A";
 	addAttr -ci true -sn "liw" -ln "lockInfluenceWeights" -min 0 -max 1 -at "bool";
 	setAttr ".uoc" 1;
@@ -19179,7 +19191,11 @@ createNode transform -n "l_foot" -p "root";
 	setAttr ".t" -type "double3" -0.092922669426158955 -0.0017343015643511005 -0.066966561861999674 ;
 	setAttr ".r" -type "double3" 0 0 -89.999999999999986 ;
 	setAttr ".s" -type "double3" 0.99999999999999978 0.99999999999999978 1 ;
+<<<<<<< HEAD
 createNode transform -n "l_foot" -p "|Chicken|root|l_foot";
+=======
+createNode transform -n "r_foot" -p "l_foot";
+>>>>>>> parent of a4667e8... Reimported Unity ARKit blendshape scenes
 	rename -uid "30C9CB65-FB41-30DB-438E-86AE395496BD";
 	setAttr -l on ".tx";
 	setAttr -l on ".ty";
@@ -19192,7 +19208,11 @@ createNode transform -n "l_foot" -p "|Chicken|root|l_foot";
 	setAttr -l on ".sz";
 	setAttr ".rp" -type "double3" 0 -0.7943420866355253 0 ;
 	setAttr ".sp" -type "double3" 0 -0.7943420866355253 0 ;
+<<<<<<< HEAD
 createNode mesh -n "l_footShape" -p "|Chicken|root|l_foot|l_foot";
+=======
+createNode mesh -n "r_footShape" -p "|Chicken|root|l_foot|r_foot";
+>>>>>>> parent of a4667e8... Reimported Unity ARKit blendshape scenes
 	rename -uid "9656CCCF-4242-1D36-F874-5E9DEA357146";
 	setAttr -k off ".v";
 	setAttr -s 8 ".iog[0].og";
@@ -19202,7 +19222,11 @@ createNode mesh -n "l_footShape" -p "|Chicken|root|l_foot|l_foot";
 	setAttr ".cuvs" -type "string" "map1";
 	setAttr ".dcc" -type "string" "Ambient+Diffuse";
 	setAttr ".vcs" 2;
+<<<<<<< HEAD
 createNode mesh -n "l_footShapeOrig" -p "|Chicken|root|l_foot|l_foot";
+=======
+createNode mesh -n "r_footShapeOrig" -p "|Chicken|root|l_foot|r_foot";
+>>>>>>> parent of a4667e8... Reimported Unity ARKit blendshape scenes
 	rename -uid "E11606A9-C14C-8E2E-B6C0-DD8FA35D7D92";
 	setAttr -k off ".v";
 	setAttr ".io" yes;
@@ -19696,7 +19720,11 @@ createNode mesh -n "l_footShapeOrig" -p "|Chicken|root|l_foot|l_foot";
 	setAttr ".cvd" -type "dataPolyComponent" Index_Data Vertex 0 ;
 	setAttr ".pd[0]" -type "dataPolyComponent" Index_Data UV 0 ;
 	setAttr ".hfd" -type "dataPolyComponent" Index_Data Face 0 ;
+<<<<<<< HEAD
 createNode joint -n "joint4_l" -p "|Chicken|root|l_foot";
+=======
+createNode joint -n "joint4" -p "l_foot";
+>>>>>>> parent of a4667e8... Reimported Unity ARKit blendshape scenes
 	rename -uid "1EF4EC6A-E94A-6F05-BA13-A8BB3BF4FCC6";
 	addAttr -ci true -sn "liw" -ln "lockInfluenceWeights" -min 0 -max 1 -at "bool";
 	setAttr ".uoc" 1;
@@ -19706,7 +19734,11 @@ createNode joint -n "joint4_l" -p "|Chicken|root|l_foot";
 	setAttr ".bps" -type "matrix" 0.01351227979702696 -0.99990870497995321 -0 0 0.99990870497995321 0.01351227979702696 0 0
 		 0 -0 1 0 -0.12717713774323994 -0.77478946053709796 0.0078892311632169365 1;
 	setAttr ".liw" yes;
+<<<<<<< HEAD
 createNode joint -n "joint5_l" -p "joint4_l";
+=======
+createNode joint -n "joint5" -p "|Chicken|root|l_foot|joint4";
+>>>>>>> parent of a4667e8... Reimported Unity ARKit blendshape scenes
 	rename -uid "FB23F178-8C4E-AA56-2FAF-1CBCE081FA5A";
 	addAttr -ci true -sn "liw" -ln "lockInfluenceWeights" -min 0 -max 1 -at "bool";
 	setAttr ".uoc" 1;
@@ -19715,7 +19747,11 @@ createNode joint -n "joint5_l" -p "joint4_l";
 	setAttr ".mxrl" -type "double3" 360 360 360 ;
 	setAttr ".bps" -type "matrix" 0.01351227979702696 -0.99990870497995321 0 0 0.99990870497995321 0.01351227979702696 0 0
 		 0 0 1 0 -0.12503589720975214 -0.93324126001519248 0.0078892311632169365 1;
+<<<<<<< HEAD
 createNode joint -n "joint6_l" -p "joint5_l";
+=======
+createNode joint -n "joint6" -p "|Chicken|root|l_foot|joint4|joint5";
+>>>>>>> parent of a4667e8... Reimported Unity ARKit blendshape scenes
 	rename -uid "EEBA7970-CC48-B389-2716-10A64BDE60C2";
 	addAttr -ci true -sn "liw" -ln "lockInfluenceWeights" -min 0 -max 1 -at "bool";
 	setAttr ".uoc" 1;
@@ -38338,6 +38374,7 @@ connectAttr "joint15_visibility.o" "joint15.v";
 connectAttr "joint15_scaleX.o" "joint15.sx";
 connectAttr "joint15_scaleY.o" "joint15.sy";
 connectAttr "joint15_scaleZ.o" "joint15.sz";
+<<<<<<< HEAD
 connectAttr "groupId135.id" "r_footShape.iog.og[0].gid";
 connectAttr "beak_topSG1.mwc" "r_footShape.iog.og[0].gco";
 connectAttr "skinCluster5GroupId.id" "r_footShape.iog.og[7].gid";
@@ -38399,6 +38436,87 @@ connectAttr "joint5_translateX1.o" "joint5_l.tx";
 connectAttr "joint5_translateY1.o" "joint5_l.ty";
 connectAttr "joint5_translateZ1.o" "joint5_l.tz";
 connectAttr "joint5_l.s" "joint6_l.is";
+=======
+connectAttr "groupId135.id" "|Chicken|root|r_foot|r_foot|r_footShape.iog.og[0].gid"
+		;
+connectAttr "beak_topSG1.mwc" "|Chicken|root|r_foot|r_foot|r_footShape.iog.og[0].gco"
+		;
+connectAttr "skinCluster5GroupId.id" "|Chicken|root|r_foot|r_foot|r_footShape.iog.og[7].gid"
+		;
+connectAttr "skinCluster5Set.mwc" "|Chicken|root|r_foot|r_foot|r_footShape.iog.og[7].gco"
+		;
+connectAttr "groupId137.id" "|Chicken|root|r_foot|r_foot|r_footShape.iog.og[8].gid"
+		;
+connectAttr "tweakSet17.mwc" "|Chicken|root|r_foot|r_foot|r_footShape.iog.og[8].gco"
+		;
+connectAttr "skinCluster5.og[0]" "|Chicken|root|r_foot|r_foot|r_footShape.i";
+connectAttr "tweak17.vl[0].vt[0]" "|Chicken|root|r_foot|r_foot|r_footShape.twl";
+connectAttr "joint4_scaleX.o" "|Chicken|root|r_foot|joint4.sx";
+connectAttr "joint4_scaleY.o" "|Chicken|root|r_foot|joint4.sy";
+connectAttr "joint4_scaleZ.o" "|Chicken|root|r_foot|joint4.sz";
+connectAttr "joint4_rotateX1.o" "|Chicken|root|r_foot|joint4.rx";
+connectAttr "joint4_rotateY1.o" "|Chicken|root|r_foot|joint4.ry";
+connectAttr "joint4_rotateZ1.o" "|Chicken|root|r_foot|joint4.rz";
+connectAttr "joint4_visibility.o" "|Chicken|root|r_foot|joint4.v";
+connectAttr "joint4_translateX.o" "|Chicken|root|r_foot|joint4.tx";
+connectAttr "joint4_translateY.o" "|Chicken|root|r_foot|joint4.ty";
+connectAttr "joint4_translateZ.o" "|Chicken|root|r_foot|joint4.tz";
+connectAttr "|Chicken|root|r_foot|joint4.s" "|Chicken|root|r_foot|joint4|joint5.is"
+		;
+connectAttr "joint5_scaleX.o" "|Chicken|root|r_foot|joint4|joint5.sx";
+connectAttr "joint5_scaleY.o" "|Chicken|root|r_foot|joint4|joint5.sy";
+connectAttr "joint5_scaleZ.o" "|Chicken|root|r_foot|joint4|joint5.sz";
+connectAttr "joint5_rotateY1.o" "|Chicken|root|r_foot|joint4|joint5.ry";
+connectAttr "joint5_rotateX1.o" "|Chicken|root|r_foot|joint4|joint5.rx";
+connectAttr "joint5_rotateZ1.o" "|Chicken|root|r_foot|joint4|joint5.rz";
+connectAttr "joint5_visibility.o" "|Chicken|root|r_foot|joint4|joint5.v";
+connectAttr "joint5_translateX.o" "|Chicken|root|r_foot|joint4|joint5.tx";
+connectAttr "joint5_translateY.o" "|Chicken|root|r_foot|joint4|joint5.ty";
+connectAttr "joint5_translateZ.o" "|Chicken|root|r_foot|joint4|joint5.tz";
+connectAttr "|Chicken|root|r_foot|joint4|joint5.s" "|Chicken|root|r_foot|joint4|joint5|joint6.is"
+		;
+connectAttr "groupId97.id" "|Chicken|root|l_foot|r_foot|r_footShape.iog.og[0].gid"
+		;
+connectAttr "beak_topSG1.mwc" "|Chicken|root|l_foot|r_foot|r_footShape.iog.og[0].gco"
+		;
+connectAttr "blendShape1GroupId12.id" "|Chicken|root|l_foot|r_foot|r_footShape.iog.og[3].gid"
+		;
+connectAttr "blendShape1Set.mwc" "|Chicken|root|l_foot|r_foot|r_footShape.iog.og[3].gco"
+		;
+connectAttr "groupId125.id" "|Chicken|root|l_foot|r_foot|r_footShape.iog.og[4].gid"
+		;
+connectAttr "tweakSet13.mwc" "|Chicken|root|l_foot|r_foot|r_footShape.iog.og[4].gco"
+		;
+connectAttr "skinCluster4GroupId.id" "|Chicken|root|l_foot|r_foot|r_footShape.iog.og[6].gid"
+		;
+connectAttr "skinCluster4Set.mwc" "|Chicken|root|l_foot|r_foot|r_footShape.iog.og[6].gco"
+		;
+connectAttr "skinCluster4.og[0]" "|Chicken|root|l_foot|r_foot|r_footShape.i";
+connectAttr "joint4_scaleX1.o" "|Chicken|root|l_foot|joint4.sx";
+connectAttr "joint4_scaleY1.o" "|Chicken|root|l_foot|joint4.sy";
+connectAttr "joint4_scaleZ1.o" "|Chicken|root|l_foot|joint4.sz";
+connectAttr "joint4_translateX1.o" "|Chicken|root|l_foot|joint4.tx";
+connectAttr "joint4_translateY1.o" "|Chicken|root|l_foot|joint4.ty";
+connectAttr "joint4_translateZ1.o" "|Chicken|root|l_foot|joint4.tz";
+connectAttr "joint4_rotateX.o" "|Chicken|root|l_foot|joint4.rx";
+connectAttr "joint4_rotateY.o" "|Chicken|root|l_foot|joint4.ry";
+connectAttr "joint4_rotateZ.o" "|Chicken|root|l_foot|joint4.rz";
+connectAttr "joint4_visibility1.o" "|Chicken|root|l_foot|joint4.v";
+connectAttr "|Chicken|root|l_foot|joint4.s" "|Chicken|root|l_foot|joint4|joint5.is"
+		;
+connectAttr "joint5_scaleX1.o" "|Chicken|root|l_foot|joint4|joint5.sx";
+connectAttr "joint5_scaleY1.o" "|Chicken|root|l_foot|joint4|joint5.sy";
+connectAttr "joint5_scaleZ1.o" "|Chicken|root|l_foot|joint4|joint5.sz";
+connectAttr "joint5_rotateX.o" "|Chicken|root|l_foot|joint4|joint5.rx";
+connectAttr "joint5_rotateY.o" "|Chicken|root|l_foot|joint4|joint5.ry";
+connectAttr "joint5_rotateZ.o" "|Chicken|root|l_foot|joint4|joint5.rz";
+connectAttr "joint5_visibility1.o" "|Chicken|root|l_foot|joint4|joint5.v";
+connectAttr "joint5_translateX1.o" "|Chicken|root|l_foot|joint4|joint5.tx";
+connectAttr "joint5_translateY1.o" "|Chicken|root|l_foot|joint4|joint5.ty";
+connectAttr "joint5_translateZ1.o" "|Chicken|root|l_foot|joint4|joint5.tz";
+connectAttr "|Chicken|root|l_foot|joint4|joint5.s" "|Chicken|root|l_foot|joint4|joint5|joint6.is"
+		;
+>>>>>>> parent of a4667e8... Reimported Unity ARKit blendshape scenes
 connectAttr "groupId89.id" "body1Shape.iog.og[0].gid";
 connectAttr "bodySG1.mwc" "body1Shape.iog.og[0].gco";
 connectAttr "blendShape1GroupId4.id" "body1Shape.iog.og[3].gid";
@@ -38511,8 +38629,15 @@ connectAttr "groupId97.msg" "beak_topSG1.gn" -na;
 connectAttr "groupId135.msg" "beak_topSG1.gn" -na;
 connectAttr "beak_topShape.iog.og[0]" "beak_topSG1.dsm" -na;
 connectAttr "beak_bottomShape.iog.og[0]" "beak_topSG1.dsm" -na;
+<<<<<<< HEAD
 connectAttr "l_footShape.iog.og[0]" "beak_topSG1.dsm" -na;
 connectAttr "r_footShape.iog.og[0]" "beak_topSG1.dsm" -na;
+=======
+connectAttr "|Chicken|root|l_foot|r_foot|r_footShape.iog.og[0]" "beak_topSG1.dsm"
+		 -na;
+connectAttr "|Chicken|root|r_foot|r_foot|r_footShape.iog.og[0]" "beak_topSG1.dsm"
+		 -na;
+>>>>>>> parent of a4667e8... Reimported Unity ARKit blendshape scenes
 connectAttr "beak_topSG1.msg" "materialInfo13.sg";
 connectAttr "lambert14.msg" "materialInfo13.m";
 connectAttr "lambert15.oc" "gobble_2SG2.ss";
@@ -38567,7 +38692,11 @@ connectAttr "groupId93.id" "groupParts9.gi";
 connectAttr "|Chicken|root|head|hair|hair1|hair_1|hair_1ShapeOrig.w" "groupParts10.ig"
 		;
 connectAttr "groupId94.id" "groupParts10.gi";
+<<<<<<< HEAD
 connectAttr "l_footShapeOrig.w" "groupParts13.ig";
+=======
+connectAttr "|Chicken|root|l_foot|r_foot|r_footShapeOrig.w" "groupParts13.ig";
+>>>>>>> parent of a4667e8... Reimported Unity ARKit blendshape scenes
 connectAttr "groupId97.id" "groupParts13.gi";
 connectAttr "blendShape1GroupParts.og" "blendShape1.ip[0].ig";
 connectAttr "blendShape1GroupId.id" "blendShape1.ip[0].gi";
@@ -38636,7 +38765,12 @@ connectAttr "gobble_2Shape.iog.og[3]" "blendShape1Set.dsm" -na;
 connectAttr "gobble_1Shape.iog.og[3]" "blendShape1Set.dsm" -na;
 connectAttr "|Chicken|root|head|hair|hair1|hair_1|hair_1Shape.iog.og[3]" "blendShape1Set.dsm"
 		 -na;
+<<<<<<< HEAD
 connectAttr "l_footShape.iog.og[3]" "blendShape1Set.dsm" -na;
+=======
+connectAttr "|Chicken|root|l_foot|r_foot|r_footShape.iog.og[3]" "blendShape1Set.dsm"
+		 -na;
+>>>>>>> parent of a4667e8... Reimported Unity ARKit blendshape scenes
 connectAttr "blendShape1.msg" "blendShape1Set.ub[0]";
 connectAttr "tweak1.og[0]" "blendShape1GroupParts.ig";
 connectAttr "blendShape1GroupId.id" "blendShape1GroupParts.gi";
@@ -38712,7 +38846,12 @@ connectAttr "tweak10.msg" "tweakSet10.ub[0]";
 connectAttr "groupParts10.og" "groupParts38.ig";
 connectAttr "groupId122.id" "groupParts38.gi";
 connectAttr "groupId125.msg" "tweakSet13.gn" -na;
+<<<<<<< HEAD
 connectAttr "l_footShape.iog.og[4]" "tweakSet13.dsm" -na;
+=======
+connectAttr "|Chicken|root|l_foot|r_foot|r_footShape.iog.og[4]" "tweakSet13.dsm"
+		 -na;
+>>>>>>> parent of a4667e8... Reimported Unity ARKit blendshape scenes
 connectAttr "tweak13.msg" "tweakSet13.ub[0]";
 connectAttr "groupParts13.og" "groupParts41.ig";
 connectAttr "groupId125.id" "groupParts41.gi";
@@ -38846,6 +38985,7 @@ connectAttr "bindPose3.m[3]" "bindPose3.p[4]";
 connectAttr "bindPose3.m[4]" "bindPose3.p[5]";
 connectAttr "bindPose3.msg" "geomBind3.bp";
 connectAttr "blendShape1.og[12]" "polyMoveVertex1.ip";
+<<<<<<< HEAD
 connectAttr "l_footShape.wm" "polyMoveVertex1.mp";
 connectAttr "polyMoveVertex1.out" "polySplit1.ip";
 connectAttr "polySplit1.out" "polyMoveVertex2.ip";
@@ -38856,10 +38996,23 @@ connectAttr "l_footShape.wm" "polyMoveVertex3.mp";
 connectAttr "polyMoveVertex3.out" "polySplit3.ip";
 connectAttr "polySplit3.out" "polyMoveVertex4.ip";
 connectAttr "l_footShape.wm" "polyMoveVertex4.mp";
+=======
+connectAttr "|Chicken|root|l_foot|r_foot|r_footShape.wm" "polyMoveVertex1.mp";
+connectAttr "polyMoveVertex1.out" "polySplit1.ip";
+connectAttr "polySplit1.out" "polyMoveVertex2.ip";
+connectAttr "|Chicken|root|l_foot|r_foot|r_footShape.wm" "polyMoveVertex2.mp";
+connectAttr "polyMoveVertex2.out" "polySplit2.ip";
+connectAttr "polySplit2.out" "polyMoveVertex3.ip";
+connectAttr "|Chicken|root|l_foot|r_foot|r_footShape.wm" "polyMoveVertex3.mp";
+connectAttr "polyMoveVertex3.out" "polySplit3.ip";
+connectAttr "polySplit3.out" "polyMoveVertex4.ip";
+connectAttr "|Chicken|root|l_foot|r_foot|r_footShape.wm" "polyMoveVertex4.mp";
+>>>>>>> parent of a4667e8... Reimported Unity ARKit blendshape scenes
 connectAttr "polyMoveVertex4.out" "polySplit4.ip";
 connectAttr "skinCluster4GroupParts.og" "skinCluster4.ip[0].ig";
 connectAttr "skinCluster4GroupId.id" "skinCluster4.ip[0].gi";
 connectAttr "bindPose4.msg" "skinCluster4.bp";
+<<<<<<< HEAD
 connectAttr "joint4_l.wm" "skinCluster4.ma[0]";
 connectAttr "joint5_l.wm" "skinCluster4.ma[1]";
 connectAttr "joint6_l.wm" "skinCluster4.ma[2]";
@@ -38884,35 +39037,88 @@ connectAttr "bindPose4.m[1]" "bindPose4.p[2]";
 connectAttr "joint4_l.bps" "bindPose4.wm[0]";
 connectAttr "joint5_l.bps" "bindPose4.wm[1]";
 connectAttr "joint6_l.bps" "bindPose4.wm[2]";
+=======
+connectAttr "|Chicken|root|l_foot|joint4.wm" "skinCluster4.ma[0]";
+connectAttr "|Chicken|root|l_foot|joint4|joint5.wm" "skinCluster4.ma[1]";
+connectAttr "|Chicken|root|l_foot|joint4|joint5|joint6.wm" "skinCluster4.ma[2]";
+connectAttr "|Chicken|root|l_foot|joint4.liw" "skinCluster4.lw[0]";
+connectAttr "|Chicken|root|l_foot|joint4|joint5.liw" "skinCluster4.lw[1]";
+connectAttr "|Chicken|root|l_foot|joint4|joint5|joint6.liw" "skinCluster4.lw[2]"
+		;
+connectAttr "|Chicken|root|l_foot|joint4.obcc" "skinCluster4.ifcl[0]";
+connectAttr "|Chicken|root|l_foot|joint4|joint5.obcc" "skinCluster4.ifcl[1]";
+connectAttr "|Chicken|root|l_foot|joint4|joint5|joint6.obcc" "skinCluster4.ifcl[2]"
+		;
+connectAttr "geomBind4.scs" "skinCluster4.gb";
+connectAttr "skinCluster4GroupId.msg" "skinCluster4Set.gn" -na;
+connectAttr "|Chicken|root|l_foot|r_foot|r_footShape.iog.og[6]" "skinCluster4Set.dsm"
+		 -na;
+connectAttr "skinCluster4.msg" "skinCluster4Set.ub[0]";
+connectAttr "polySplit4.out" "skinCluster4GroupParts.ig";
+connectAttr "skinCluster4GroupId.id" "skinCluster4GroupParts.gi";
+connectAttr "|Chicken|root|l_foot|joint4.msg" "bindPose4.m[0]";
+connectAttr "|Chicken|root|l_foot|joint4|joint5.msg" "bindPose4.m[1]";
+connectAttr "|Chicken|root|l_foot|joint4|joint5|joint6.msg" "bindPose4.m[2]";
+connectAttr "bindPose4.w" "bindPose4.p[0]";
+connectAttr "bindPose4.m[0]" "bindPose4.p[1]";
+connectAttr "bindPose4.m[1]" "bindPose4.p[2]";
+connectAttr "|Chicken|root|l_foot|joint4.bps" "bindPose4.wm[0]";
+connectAttr "|Chicken|root|l_foot|joint4|joint5.bps" "bindPose4.wm[1]";
+connectAttr "|Chicken|root|l_foot|joint4|joint5|joint6.bps" "bindPose4.wm[2]";
+>>>>>>> parent of a4667e8... Reimported Unity ARKit blendshape scenes
 connectAttr "bindPose4.msg" "geomBind4.bp";
 connectAttr "skinCluster5GroupParts.og" "skinCluster5.ip[0].ig";
 connectAttr "skinCluster5GroupId.id" "skinCluster5.ip[0].gi";
 connectAttr "bindPose5.msg" "skinCluster5.bp";
+<<<<<<< HEAD
 connectAttr "joint4.wm" "skinCluster5.ma[0]";
 connectAttr "joint5.wm" "skinCluster5.ma[1]";
 connectAttr "joint4.liw" "skinCluster5.lw[0]";
 connectAttr "joint5.liw" "skinCluster5.lw[1]";
 connectAttr "joint4.obcc" "skinCluster5.ifcl[0]";
 connectAttr "joint5.obcc" "skinCluster5.ifcl[1]";
+=======
+connectAttr "|Chicken|root|r_foot|joint4.wm" "skinCluster5.ma[0]";
+connectAttr "|Chicken|root|r_foot|joint4|joint5.wm" "skinCluster5.ma[1]";
+connectAttr "|Chicken|root|r_foot|joint4.liw" "skinCluster5.lw[0]";
+connectAttr "|Chicken|root|r_foot|joint4|joint5.liw" "skinCluster5.lw[1]";
+connectAttr "|Chicken|root|r_foot|joint4.obcc" "skinCluster5.ifcl[0]";
+connectAttr "|Chicken|root|r_foot|joint4|joint5.obcc" "skinCluster5.ifcl[1]";
+>>>>>>> parent of a4667e8... Reimported Unity ARKit blendshape scenes
 connectAttr "geomBind5.scs" "skinCluster5.gb";
 connectAttr "r_footShapeOrig1.w" "groupParts49.ig";
 connectAttr "groupId135.id" "groupParts49.gi";
 connectAttr "groupParts51.og" "tweak17.ip[0].ig";
 connectAttr "groupId137.id" "tweak17.ip[0].gi";
 connectAttr "skinCluster5GroupId.msg" "skinCluster5Set.gn" -na;
+<<<<<<< HEAD
 connectAttr "r_footShape.iog.og[7]" "skinCluster5Set.dsm" -na;
+=======
+connectAttr "|Chicken|root|r_foot|r_foot|r_footShape.iog.og[7]" "skinCluster5Set.dsm"
+		 -na;
+>>>>>>> parent of a4667e8... Reimported Unity ARKit blendshape scenes
 connectAttr "skinCluster5.msg" "skinCluster5Set.ub[0]";
 connectAttr "tweak17.og[0]" "skinCluster5GroupParts.ig";
 connectAttr "skinCluster5GroupId.id" "skinCluster5GroupParts.gi";
 connectAttr "groupId137.msg" "tweakSet17.gn" -na;
+<<<<<<< HEAD
 connectAttr "r_footShape.iog.og[8]" "tweakSet17.dsm" -na;
+=======
+connectAttr "|Chicken|root|r_foot|r_foot|r_footShape.iog.og[8]" "tweakSet17.dsm"
+		 -na;
+>>>>>>> parent of a4667e8... Reimported Unity ARKit blendshape scenes
 connectAttr "tweak17.msg" "tweakSet17.ub[0]";
 connectAttr "groupParts49.og" "groupParts51.ig";
 connectAttr "groupId137.id" "groupParts51.gi";
 connectAttr "Chicken.msg" "bindPose5.m[0]";
 connectAttr "|Chicken|root|r_foot.msg" "bindPose5.m[1]";
+<<<<<<< HEAD
 connectAttr "joint4.msg" "bindPose5.m[2]";
 connectAttr "joint5.msg" "bindPose5.m[3]";
+=======
+connectAttr "|Chicken|root|r_foot|joint4.msg" "bindPose5.m[2]";
+connectAttr "|Chicken|root|r_foot|joint4|joint5.msg" "bindPose5.m[3]";
+>>>>>>> parent of a4667e8... Reimported Unity ARKit blendshape scenes
 connectAttr "bindPose5.w" "bindPose5.p[0]";
 connectAttr "bindPose5.m[0]" "bindPose5.p[1]";
 connectAttr "bindPose5.m[1]" "bindPose5.p[2]";
