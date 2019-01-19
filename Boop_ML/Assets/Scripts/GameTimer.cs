@@ -33,7 +33,7 @@ namespace TMPro.Examples {
             {
                 timer += Time.deltaTime;
                 print("Play mode");
-                timeText.SetText("Time: " + Mathf.RoundToInt(timer));
+                timeText.SetText(Mathf.RoundToInt(timer).ToString());
             }
 
             if (laughing || Input.GetKeyDown(KeyCode.L))
