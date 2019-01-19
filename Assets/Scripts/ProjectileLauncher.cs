@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.XR.MagicLeap;
 
 public class ProjectileLauncher : MonoBehaviour
 {
@@ -11,7 +12,7 @@ public class ProjectileLauncher : MonoBehaviour
     [SerializeField]
     private float forceAmount;
     [SerializeField]
-    private Transform launcherMuzzle;
+    private Transform l1, l2, l3;
 
     Rigidbody rigidObject;
 
@@ -46,29 +47,57 @@ public class ProjectileLauncher : MonoBehaviour
         if (selectedProjectile == 1)
         {
             spawned = Instantiate(p1);
+            GetComponent<AudioSource>().PlayOneShot(launchSound);
+
+            // Launch projectile from source:
+            spawned.transform.position = l1.position;
+            spawned.transform.right = -1.0f * l1.forward;
+
+            // Rigidbody stuff:
+            rigidObject = spawned.GetComponent<Rigidbody>();
+            Vector3 forceVector = l1.forward;
+            rigidObject.AddForce(forceVector * forceAmount, ForceMode.Impulse);
         }
         else if (selectedProjectile == 2)
         {
             spawned = Instantiate(p2);
+            GetComponent<AudioSource>().PlayOneShot(launchSound);
+
+            // Launch projectile from source:
+            spawned.transform.position = l2.position;
+
+            // Rigidbody stuff:
+            rigidObject = spawned.GetComponent<Rigidbody>();
+            Vector3 forceVector = l2.forward;
+            rigidObject.AddForce(forceVector * forceAmount, ForceMode.Impulse);
         }
         else if (selectedProjectile == 3)
         {
             spawned = Instantiate(p3);
+            GetComponent<AudioSource>().PlayOneShot(launchSound);
+
+            // Launch projectile from source:
+            spawned.transform.position = l3.position;
+            spawned.transform.right = -1.0f * l3.forward;
+
+            // Rigidbody stuff:
+            rigidObject = spawned.GetComponent<Rigidbody>();
+            Vector3 forceVector = l3.forward;
+            rigidObject.AddForce(forceVector * forceAmount, ForceMode.Impulse);
         }
         else
         {
             spawned = Instantiate(p1);
+            GetComponent<AudioSource>().PlayOneShot(launchSound);
+
+            // Launch projectile from source:
+            spawned.transform.position = l1.position;
+            spawned.transform.right = -1.0f * l1.forward;
+
+            // Rigidbody stuff:
+            rigidObject = spawned.GetComponent<Rigidbody>();
+            Vector3 forceVector = l1.forward;
+            rigidObject.AddForce(forceVector * forceAmount, ForceMode.Impulse);
         }
-
-        GetComponent<AudioSource>().PlayOneShot(launchSound);
-
-        // Launch projectile from source:
-        spawned.transform.position = launcherMuzzle.position;
-        spawned.transform.right = -1.0f * launcherMuzzle.forward;
-        
-        // Rigidbody stuff:
-        rigidObject = spawned.GetComponent<Rigidbody>();
-        Vector3 forceVector = launcherMuzzle.forward;
-        rigidObject.AddForce(forceVector * forceAmount, ForceMode.Impulse);
     }
 }
