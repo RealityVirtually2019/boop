@@ -47,7 +47,7 @@ PlayerSettings:
   defaultScreenWidthWeb: 960
   defaultScreenHeightWeb: 600
   m_StereoRenderingPath: 0
-  m_ActiveColorSpace: 0
+  m_ActiveColorSpace: 1
   m_MTRendering: 1
   m_StackTraceTypes: 010000000100000001000000010000000100000001000000
   iosShowActivityIndicatorOnLoading: -1
@@ -118,7 +118,8 @@ PlayerSettings:
     16:9: 1
     Others: 1
   bundleVersion: 0.1
-  preloadedAssets: []
+  preloadedAssets:
+  - {fileID: 1375738651185904, guid: 463dcdb38fa02004e857f5c8db803205, type: 2}
   metroInputSource: 0
   wsaTransparentSwapchain: 0
   m_HolographicPauseOnTrackingLoss: 1
@@ -590,7 +591,7 @@ PlayerSettings:
   scriptingBackend: {}
   il2cppCompilerConfiguration: {}
   incrementalIl2cppBuild: {}
-  allowUnsafeCode: 0
+  allowUnsafeCode: 1
   additionalIl2CppArgs: 
   scriptingRuntimeVersion: 0
   apiCompatibilityLevelPerPlatform: {}
@@ -676,13 +677,22 @@ PlayerSettings:
     m_ModelFolderPath: 
     m_PortalFolderPath: 
   luminCert:
-    m_CertPath: 
+    m_CertPath: C:/User Files/AWU/MxR/AR/MITHack/privatekey/daddy.cert
     m_PrivateKeyPath: 
   luminIsChannelApp: 0
   luminVersion:
     m_VersionCode: 1
     m_VersionName: 
-  luminPrivilege: []
+  luminPrivilege:
+  - Internet
+  - BackgroundUpload
+  - BackgroundDownload
+  - LocalAreaNetwork
+  - IdentityRead
+  - GesturesSubscribe
+  - ControllerPose
+  - NormalNotificationsUsage
+  - DrmCertificates
   luminMinimumPlatformAPILevel: 3
   facebookSdkVersion: 7.9.4
   apiCompatibilityLevel: 2
@@ -690,5 +700,5 @@ PlayerSettings:
   projectName: Template_3D
   organizationId: 
   cloudEnabled: 0
-  enableNativePlatformBackendsForNewInputSystem: 0
+  enableNativePlatformBackendsForNewInputSystem: 1
   disableOldInputManagerSupport: 0
