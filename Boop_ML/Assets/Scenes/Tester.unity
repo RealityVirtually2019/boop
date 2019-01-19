@@ -1064,10 +1064,9 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1948552994}
-  - component: {fileID: 1948552993}
   - component: {fileID: 1948552995}
   - component: {fileID: 1948552996}
-  - component: {fileID: 1948552997}
+  - component: {fileID: 1948552993}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -1083,14 +1082,17 @@ MonoBehaviour:
   m_GameObject: {fileID: 1948552992}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0b783f1514436954da5805c28f4bd354, type: 3}
+  m_Script: {fileID: 11500000, guid: 9635663834b05224f901c1a407a17da1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timeLimit: 5
-  timeText: {fileID: 1657752880}
-  winnerText: {fileID: 989679452}
-  mlpText: {fileID: 1019839373}
-  ippText: {fileID: 1537250537}
+  p1: {fileID: 0}
+  p2: {fileID: 0}
+  p3: {fileID: 0}
+  forceAmount: 0
+  l1: {fileID: 0}
+  l2: {fileID: 0}
+  l3: {fileID: 0}
+  launchSound: {fileID: 0}
 --- !u!4 &1948552994
 Transform:
   m_ObjectHideFlags: 0
@@ -1207,33 +1209,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 1948552992}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: edb7acfb9aba2ca449b7e24bc3fd59e2, type: 3}
+  m_Script: {fileID: 11500000, guid: 02649db2c9a4ffc43a0c407e4399d689, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  p1: {fileID: 1315892065340946, guid: 45d1d283cbed98e4384de13335b8784d, type: 2}
-  p2: {fileID: 1775478050236432, guid: c219ebb491deb464f9dc3544df5b77dd, type: 2}
-  p3: {fileID: 1633293841256390, guid: 93f50ce7dc1fcfb4ca4ba6115c0bf1e5, type: 2}
-  forceAmount: 5
-  launcherMuzzle: {fileID: 1956943673}
-  launchSound: {fileID: 8300000, guid: 19f4501034c86564a96869e621b8f531, type: 3}
---- !u!114 &1948552997
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1948552992}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 07ef5b02f55fb7545a353df976bcc373, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  input: {x: 0, y: 0, z: 0}
-  output: {x: 0, y: 0, z: 0}
-  actionType: 9
-  faceType: 0
-  soundType: 0
-  reactionVal: 0
-  gameState: 0
+  timeLimit: 5
+  timeText: {fileID: 0}
+  winnerText: {fileID: 0}
+  mlpText: {fileID: 0}
+  ippText: {fileID: 0}
 --- !u!1 &1956943672
 GameObject:
   m_ObjectHideFlags: 0
