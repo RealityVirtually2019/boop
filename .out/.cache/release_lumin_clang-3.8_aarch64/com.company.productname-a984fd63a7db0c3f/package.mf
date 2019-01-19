@@ -2,7 +2,7 @@
  "entries": [
   {
    "compression": 8,
-   "hash": "c71695f16b55435c4cf3d357e541e17a27d22711",
+   "hash": "c90fb508a662f707da0a71d453f794e8129422d3",
    "pkgpath": "Data/09641b029dfa78843902b548a9de7553",
    "size": 10000,
    "src": "C:/User Files/AWU/MxR/AR/MITHack/GitRepo/Temp/StagingArea/Data/09641b029dfa78843902b548a9de7553"
@@ -16,14 +16,14 @@
   },
   {
    "compression": 8,
-   "hash": "1a495372572bf1e514c697b7b3fd0678f55e6f8b",
+   "hash": "7d7c7f096fbcbcf4a2217942e39f34c881b215ef",
    "pkgpath": "Data/102e7c5c5e3b1f3468518cb166967d77",
    "size": 5664,
    "src": "C:/User Files/AWU/MxR/AR/MITHack/GitRepo/Temp/StagingArea/Data/102e7c5c5e3b1f3468518cb166967d77"
   },
   {
    "compression": 8,
-   "hash": "19ed3ea10ecf8d1cb044d231d5fbcc3855f3ad42",
+   "hash": "40510f893b5315f4fbeacf43c71efc94b8e601a3",
    "pkgpath": "Data/163292f6f226d954593d45b079f8aae0",
    "size": 9812,
    "src": "C:/User Files/AWU/MxR/AR/MITHack/GitRepo/Temp/StagingArea/Data/163292f6f226d954593d45b079f8aae0"
@@ -37,7 +37,7 @@
   },
   {
    "compression": 8,
-   "hash": "338d63178a42e0ff581e2cbac53cf62bb64f2912",
+   "hash": "dfe3673aa455c412f32fb8fc28c6071ce91f6d9f",
    "pkgpath": "Data/1e643bbd7e13d46418da3774e72bef60",
    "size": 4220,
    "src": "C:/User Files/AWU/MxR/AR/MITHack/GitRepo/Temp/StagingArea/Data/1e643bbd7e13d46418da3774e72bef60"
@@ -58,14 +58,14 @@
   },
   {
    "compression": 8,
-   "hash": "bf3b805645a2a6fe16b402f6310bf4a40678eef7",
+   "hash": "cfb634fa0f91aa02073b913dbf051de1fb353d31",
    "pkgpath": "Data/250a1a103b3b4914c9707e6a423446d6",
    "size": 5656,
    "src": "C:/User Files/AWU/MxR/AR/MITHack/GitRepo/Temp/StagingArea/Data/250a1a103b3b4914c9707e6a423446d6"
   },
   {
    "compression": 8,
-   "hash": "131b85062550157e540a965cfb0b30886784e669",
+   "hash": "9288c02012e0bfa6478dd72d803ae64eccc2f73d",
    "pkgpath": "Data/273ca6c80b4b5d746b5e548f532bffd8",
    "size": 5756,
    "src": "C:/User Files/AWU/MxR/AR/MITHack/GitRepo/Temp/StagingArea/Data/273ca6c80b4b5d746b5e548f532bffd8"
@@ -93,14 +93,14 @@
   },
   {
    "compression": 8,
-   "hash": "afad78346412944946e64456dcb46367fba1f13b",
+   "hash": "4c35e972fa197a87255fb85d90b47d5f4072f0b6",
    "pkgpath": "Data/33c745f0979f3984182a138bcc6e57ec",
    "size": 4224,
    "src": "C:/User Files/AWU/MxR/AR/MITHack/GitRepo/Temp/StagingArea/Data/33c745f0979f3984182a138bcc6e57ec"
   },
   {
    "compression": 8,
-   "hash": "b4953a979b68dedbb4f68934edaa78f608bf1b86",
+   "hash": "41aa2e6670a30f352cf91d51429553dd10e89550",
    "pkgpath": "Data/33db60c37b63f08448ded4b385e74e38",
    "size": 5664,
    "src": "C:/User Files/AWU/MxR/AR/MITHack/GitRepo/Temp/StagingArea/Data/33db60c37b63f08448ded4b385e74e38"
@@ -128,14 +128,14 @@
   },
   {
    "compression": 8,
-   "hash": "0c82a2073a8dfe24bb0c467e49b2f579b84b7ca7",
+   "hash": "e16318e362669caeafa529c9121638caca57f5c4",
    "pkgpath": "Data/4a7755d6b5b67874f89c85f56f95fe97",
    "size": 18072,
    "src": "C:/User Files/AWU/MxR/AR/MITHack/GitRepo/Temp/StagingArea/Data/4a7755d6b5b67874f89c85f56f95fe97"
   },
   {
    "compression": 8,
-   "hash": "8e2f2ba3d402e47b1aad2dfe30a8075a22a4abeb",
+   "hash": "c8d78ffbd88fb0db53aab9da345225a181478bda",
    "pkgpath": "Data/4f9843c79516ed1468b9b5a4f32e67e3",
    "size": 5860,
    "src": "C:/User Files/AWU/MxR/AR/MITHack/GitRepo/Temp/StagingArea/Data/4f9843c79516ed1468b9b5a4f32e67e3"
@@ -149,14 +149,14 @@
   },
   {
    "compression": 8,
-   "hash": "bb2eab080de268a8cc39a82fcd244bc51c5c4718",
+   "hash": "bb21b9346f17cda7dfc752f01cd5423fced69241",
    "pkgpath": "Data/54d1085f9a2fdea4587fcfc7dddcd4bc",
    "size": 6272,
    "src": "C:/User Files/AWU/MxR/AR/MITHack/GitRepo/Temp/StagingArea/Data/54d1085f9a2fdea4587fcfc7dddcd4bc"
   },
   {
    "compression": 8,
-   "hash": "10ae6299c71fa0474d6fe834786a012647bee1db",
+   "hash": "f5afee1d6801e8f7c8f4b52a22196e296fbf2905",
    "pkgpath": "Data/55eb086ae18c76e4bb6cc7106d0dd6e2",
    "size": 5000,
    "src": "C:/User Files/AWU/MxR/AR/MITHack/GitRepo/Temp/StagingArea/Data/55eb086ae18c76e4bb6cc7106d0dd6e2"
@@ -177,7 +177,7 @@
   },
   {
    "compression": 8,
-   "hash": "e4e97394863fd2ea3ee99a9a32549611e47245eb",
+   "hash": "485d3a98cd8bca40239ad34795fa80ffad293b5f",
    "pkgpath": "Data/69ed5bac41eebaa4c97e9d2a4168c54f",
    "size": 4344,
    "src": "C:/User Files/AWU/MxR/AR/MITHack/GitRepo/Temp/StagingArea/Data/69ed5bac41eebaa4c97e9d2a4168c54f"
@@ -226,7 +226,7 @@
   },
   {
    "compression": 8,
-   "hash": "3fe37f550a18404e40cfa36a843f1ec756ac3e8c",
+   "hash": "e512e80ba3069ac2dec4199a23b1b3a809ef76c4",
    "pkgpath": "Data/74e06d99c1657fc4abd33f20685ea9ff",
    "size": 5808,
    "src": "C:/User Files/AWU/MxR/AR/MITHack/GitRepo/Temp/StagingArea/Data/74e06d99c1657fc4abd33f20685ea9ff"
@@ -240,7 +240,7 @@
   },
   {
    "compression": 8,
-   "hash": "6de677b81e5e926276694f3e29c1120ec8fe0419",
+   "hash": "a90a8f39e1a666199bde81b874ce6072333323b0",
    "pkgpath": "Data/808aa8f1ab804104aa7d0c337a6c1481",
    "size": 9340,
    "src": "C:/User Files/AWU/MxR/AR/MITHack/GitRepo/Temp/StagingArea/Data/808aa8f1ab804104aa7d0c337a6c1481"
@@ -254,7 +254,7 @@
   },
   {
    "compression": 8,
-   "hash": "c1eb0addc9e340db7c3109fa1e1c4996619de2ba",
+   "hash": "f77e5abcb5ef848e17c29ebd179cd0d7617c5a0f",
    "pkgpath": "Data/83a1b0fe6c3dbac44b66f09c82e1d509",
    "size": 5648,
    "src": "C:/User Files/AWU/MxR/AR/MITHack/GitRepo/Temp/StagingArea/Data/83a1b0fe6c3dbac44b66f09c82e1d509"
@@ -289,14 +289,14 @@
   },
   {
    "compression": 8,
-   "hash": "1c613956127f5f8643ba973986fc170aff687348",
+   "hash": "44aa2ab04eb40c00a750f5f512d22476a79b69e3",
    "pkgpath": "Data/90c9133b254e2184b8084dea4f392337",
    "size": 4224,
    "src": "C:/User Files/AWU/MxR/AR/MITHack/GitRepo/Temp/StagingArea/Data/90c9133b254e2184b8084dea4f392337"
   },
   {
    "compression": 8,
-   "hash": "66854c67b3c4bb4fbe8e0042cf0d708d50c59c50",
+   "hash": "5724ac7703d096b68f6339cb82508d080b448498",
    "pkgpath": "Data/9a952e2781ef26940ae089f1053ef4ef",
    "size": 5728,
    "src": "C:/User Files/AWU/MxR/AR/MITHack/GitRepo/Temp/StagingArea/Data/9a952e2781ef26940ae089f1053ef4ef"
@@ -310,16 +310,16 @@
   },
   {
    "compression": 8,
-   "hash": "7e11b53b7b66e26c3d20deea3c8950f078a4c230",
+   "hash": "0b1fc5d15b2e02b56c5721cbe75a2fbc25c3e4db",
    "pkgpath": "Data/Managed/Metadata/global-metadata.dat",
-   "size": 2519724,
+   "size": 2519712,
    "src": "C:/User Files/AWU/MxR/AR/MITHack/GitRepo/Temp/StagingArea/Data/Managed/Metadata/global-metadata.dat"
   },
   {
    "compression": 8,
-   "hash": "c76f25b454fa4583ac29885fa98e9adaa0dba91a",
+   "hash": "d354e647805244d68f08ca1fde633aa021d8ef56",
    "pkgpath": "bin/libil2cpp.so",
-   "size": 30600560,
+   "size": 30600112,
    "src": "C:/User Files/AWU/MxR/AR/MITHack/GitRepo/Temp/StagingArea/Data/Native/libil2cpp.so",
    "xfrm_flags": {
     "signed": {
@@ -330,9 +330,9 @@
      "version": 3
     }
    },
-   "xfrm_hash": "18c84012ce9790ffa56fcb28c00885928a1eed40",
+   "xfrm_hash": "ad54de0263d3ed7549b8bccd616cee2ca8cffae7",
    "xfrm_path": "C:/User Files/AWU/MxR/AR/MITHack/GitRepo/.out/.cache/release_lumin_clang-3.8_aarch64/com.company.productname-a984fd63a7db0c3f\\libil2cpp.so-e77b028eb05722de",
-   "xfrm_size": 30601318
+   "xfrm_size": 30600870
   },
   {
    "compression": 8,
@@ -439,7 +439,7 @@
   },
   {
    "compression": 8,
-   "hash": "072ddee3340b4078a7a60c8ae2a904033ab00d65",
+   "hash": "722d19fbaee3d8466abfaa7695a8dcd07be0d000",
    "pkgpath": "Data/c26f698d4eee19e4a8b8f42cd299bab5",
    "size": 5712,
    "src": "C:/User Files/AWU/MxR/AR/MITHack/GitRepo/Temp/StagingArea/Data/c26f698d4eee19e4a8b8f42cd299bab5"
@@ -460,7 +460,7 @@
   },
   {
    "compression": 8,
-   "hash": "842c787cad95157df8529d0633006724d994504c",
+   "hash": "9e519e8255595c0801aa864062a435aaab1d59ce",
    "pkgpath": "Data/c4fd2a959a50b584b92dedfefec1ffda",
    "size": 5536,
    "src": "C:/User Files/AWU/MxR/AR/MITHack/GitRepo/Temp/StagingArea/Data/c4fd2a959a50b584b92dedfefec1ffda"
@@ -481,7 +481,7 @@
   },
   {
    "compression": 8,
-   "hash": "982cbdd308849e83d7fbfea14524307b597efd6d",
+   "hash": "a80bb17987a87b7c43e32783385531e4e3df3b57",
    "pkgpath": "Data/d62a573c923f5cb47b8ff65261033b90",
    "size": 9868,
    "src": "C:/User Files/AWU/MxR/AR/MITHack/GitRepo/Temp/StagingArea/Data/d62a573c923f5cb47b8ff65261033b90"
@@ -495,28 +495,28 @@
   },
   {
    "compression": 8,
-   "hash": "0634e380dc010a8e69210697ba61ffbd3d3409c4",
+   "hash": "d7d71fca1ecb955d0500235fae6b42715864c83e",
    "pkgpath": "Data/db7f2cfbf23d6d54ca4e74a9abd55326",
    "size": 5696,
    "src": "C:/User Files/AWU/MxR/AR/MITHack/GitRepo/Temp/StagingArea/Data/db7f2cfbf23d6d54ca4e74a9abd55326"
   },
   {
    "compression": 8,
-   "hash": "e8db57e70d43ea9a1806d8bad91c6b98d5468b45",
+   "hash": "b0867bb45fe1d4c101da000f660d564ccd7857ba",
    "pkgpath": "Data/dca26082f9cb439469295791d9f76fe5",
-   "size": 37212,
+   "size": 34604,
    "src": "C:/User Files/AWU/MxR/AR/MITHack/GitRepo/Temp/StagingArea/Data/dca26082f9cb439469295791d9f76fe5"
   },
   {
    "compression": 8,
-   "hash": "b0700e186042268df4637d282a9173403cae3f0a",
+   "hash": "af34a8b08405e72c76b8eac5359708d533d32381",
    "pkgpath": "Data/e002cb2a36d9e4a439a062867fa24e1e",
    "size": 4220,
    "src": "C:/User Files/AWU/MxR/AR/MITHack/GitRepo/Temp/StagingArea/Data/e002cb2a36d9e4a439a062867fa24e1e"
   },
   {
    "compression": 8,
-   "hash": "bbe86d99cd4cb0d96aa6b2309144fa5b4550a983",
+   "hash": "9e2ee69f7047d822ad6ba4f02e5a74ad6c0baf35",
    "pkgpath": "Data/e077dc203e948b740859c1c0ca8b9691",
    "size": 5640,
    "src": "C:/User Files/AWU/MxR/AR/MITHack/GitRepo/Temp/StagingArea/Data/e077dc203e948b740859c1c0ca8b9691"
@@ -537,7 +537,7 @@
   },
   {
    "compression": 8,
-   "hash": "b33c7658ce05940cbac11869372d7b2ddbff7b12",
+   "hash": "c78901dce1cefd03b2e9182180b9e60fe5d2cdde",
    "pkgpath": "Data/f76ef802b8b940c46a31f9027f2b0158",
    "size": 9836,
    "src": "C:/User Files/AWU/MxR/AR/MITHack/GitRepo/Temp/StagingArea/Data/f76ef802b8b940c46a31f9027f2b0158"
@@ -551,23 +551,23 @@
   },
   {
    "compression": 8,
-   "hash": "78fc4b4e91ef4a8fe961ea6d684ccb002e8d5d3e",
+   "hash": "c76e7224057e2f1dad0111052fbb27ea3b340767",
    "pkgpath": "Data/globalgamemanagers",
-   "size": 36612,
+   "size": 36644,
    "src": "C:/User Files/AWU/MxR/AR/MITHack/GitRepo/Temp/StagingArea/Data/globalgamemanagers"
   },
   {
    "compression": 8,
-   "hash": "012e07ce7ceb4427f148175c580a4205ffa244ef",
+   "hash": "ace65dae1dc973ade7924fe09fab7f6e02de14e2",
    "pkgpath": "Data/globalgamemanagers.assets",
-   "size": 36716,
+   "size": 153352,
    "src": "C:/User Files/AWU/MxR/AR/MITHack/GitRepo/Temp/StagingArea/Data/globalgamemanagers.assets"
   },
   {
    "compression": 8,
-   "hash": "8332f5f1cfaada5d2e4c7f8395d13ce497d0bff8",
+   "hash": "43bd7ff5e59cf35354b285da2d263ef21b53b71b",
    "pkgpath": "Data/level0",
-   "size": 10360,
+   "size": 11492,
    "src": "C:/User Files/AWU/MxR/AR/MITHack/GitRepo/Temp/StagingArea/Data/level0"
   },
   {
@@ -579,9 +579,9 @@
   },
   {
    "compression": 8,
-   "hash": "f275276bafa2dbfa36c95ee307e83ee014d626fa",
+   "hash": "f07333d537261a132017cdf8c74022341064f320",
    "pkgpath": "Data/sharedassets0.assets",
-   "size": 138736,
+   "size": 49200,
    "src": "C:/User Files/AWU/MxR/AR/MITHack/GitRepo/Temp/StagingArea/Data/sharedassets0.assets"
   },
   {
@@ -631,9 +631,9 @@
   },
   {
    "compression": 8,
-   "hash": "7adae0d03afe2bb41b413a8171394c8f1ce190c4",
+   "hash": "f84b96c050ac67fff1b308dbee764717f407de74",
    "pkgpath": "manifest.xml",
-   "size": 577,
+   "size": 989,
    "src": "C:\\User Files\\AWU\\MxR\\AR\\MITHack\\GitRepo\\Temp\\StagingArea\\manifest.xml",
    "xfrm_flags": {
     "manifest": {
@@ -641,9 +641,9 @@
      "developer_id": "f31ac1b0-e0c8-4db6-81c7-21b869fa7bf1"
     }
    },
-   "xfrm_hash": "14617b08725994586e822143a76417d567ab0099",
+   "xfrm_hash": "726227791d6a460313b39b6ad71371e4dbe977b9",
    "xfrm_path": "C:/User Files/AWU/MxR/AR/MITHack/GitRepo/.out/.cache/release_lumin_clang-3.8_aarch64/com.company.productname-a984fd63a7db0c3f\\manifest.xml-6dcfe64aabb3d5aa",
-   "xfrm_size": 589
+   "xfrm_size": 1001
   }
  ],
  "pkgflags": {

@@ -8,4 +8,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/MLTester.unity
     guid: e944825e20c8c2b44afd0bf49373fb02
+  - enabled: 0
+    path: Assets/Scenes/Tester.unity
+    guid: 10ec2c5c4a5ca24499a6b3a2529cc2c8
   m_configObjects: {}

@@ -1229,7 +1229,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   input: {x: 0, y: 0, z: 0}
   output: {x: 0, y: 0, z: 0}
-  actionType: 0
+  actionType: 9
   faceType: 0
   soundType: 0
   reactionVal: 0

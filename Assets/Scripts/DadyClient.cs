@@ -36,7 +36,7 @@ public class DadyClient : MonoBehaviour {
         output.y = gameState;
 
         SetTransform(input, output);
-        getData();
+        //getData();
     }
 
     public static Vector3 GetStaticInput()
@@ -53,31 +53,31 @@ public class DadyClient : MonoBehaviour {
         return localData.rot;
     }
 
-    public void getData() {
-        StartCoroutine(Get());
-    }
+    //public void getData() {
+    //    StartCoroutine(Get());
+    //}
 
-    IEnumerator Get() {
-		WWW www;
+  //  IEnumerator Get() {
+		//WWW www;
 
-		string url = "http://internal.mcmentos.com/getTransform";
-		www = new WWW(url);
+		//string url = "http://internal.mcmentos.com/getTransform";
+		//www = new WWW(url);
 
-		yield return www;
+		//yield return www;
 
-        if (www.error == "" || www.error == null) {
-            Debug.Log("Get succeeded!");
-            Debug.Log(www.text);
-            JsonTransform t = JsonUtility.FromJson<JsonTransform>(www.text);
-            localData.pos = t.pos;
-            localData.rot = t.rot;
-            print("networked p" + localData.pos);
-            print("networked r" + localData.rot);
-            Debug.Log(localData.pos);
-        } else {
-            Debug.Log(www.error);
-        }
-    }
+  //      if (www.error == "" || www.error == null) {
+  //          Debug.Log("Get succeeded!");
+  //          Debug.Log(www.text);
+  //          JsonTransform t = JsonUtility.FromJson<JsonTransform>(www.text);
+  //          localData.pos = t.pos;
+  //          localData.rot = t.rot;
+  //          print("networked p" + localData.pos);
+  //          print("networked r" + localData.rot);
+  //          Debug.Log(localData.pos);
+  //      } else {
+  //          Debug.Log(www.error);
+  //      }
+  //  }
 
     public void SetTransform(Vector3 pos, Vector3 rot)
     {

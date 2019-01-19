@@ -13,21 +13,34 @@ public class DataVis : MonoBehaviour {
 
     private JsonTransform localData = new JsonTransform();
     public GameObject testCube;
+    public TMPro.TextMeshPro testText;
 
+    private void Start()
+    {
+        StartCoroutine(GetData());
+    }
     // Update is called once per frame
     void Update () {
-        getData();
+        // debug cube 
         transform.position = localData.pos;
-        // debug
+        // debug text
         if(Input.GetKeyDown(KeyCode.Space))
         {
             Instantiate(testCube);
         }
-	}
+        testText.SetText("Debug: " + localData.pos);
 
-    public void getData()
+
+    }
+
+    public IEnumerator GetData()
     {
-        StartCoroutine(Get());
+        while(true) {
+            print("fetching");
+            StartCoroutine(Get());
+            yield return new WaitForSeconds(1);
+        }
+
     }
 
     IEnumerator Get()
