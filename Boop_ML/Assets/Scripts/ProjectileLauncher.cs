@@ -8,11 +8,13 @@ public class ProjectileLauncher : MonoBehaviour
 
     [SerializeField]
     private GameObject p1, p2, p3;
-    int selectedProjectile = 1;
+    public int selectedProjectile = 1;
     [SerializeField]
     private float forceAmount;
     [SerializeField]
     private Transform l1, l2, l3;
+
+    public DadyClient DC;
 
     Rigidbody rigidObject;
 
@@ -44,7 +46,28 @@ public class ProjectileLauncher : MonoBehaviour
         }
     }
 
-    private void LaunchObject()
+    private void OnTriggerEnter(Collider other)
+    {
+        if (this.name == "1")
+        {
+            selectedProjectile = 1;
+            DC.actionType = 1;
+            LaunchObject();
+        }
+        else if (this.name == "2")
+        {
+            selectedProjectile = 2;
+            DC.actionType = 2;
+            LaunchObject();
+        }
+        else if (this.name == "3")
+        {
+            selectedProjectile = 3;
+            DC.actionType = 3;
+            LaunchObject();
+        }
+    }
+        public void LaunchObject()
     {
         // Spawn projectile and play corresponding sound:
         GameObject spawned;
