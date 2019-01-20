@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ######### DO NOT EDIT BELOW #########
 
 
@@ -6,3 +7,13 @@ USES = \
 
 
 ######### DO NOT EDIT ABOVE #########
+=======
+######### DO NOT EDIT BELOW #########
+
+
+USES = \
+	"C:\User Files\AWU\MxR\AR\MITHack\GitRepo\Temp/StagingArea\assets" \
+
+
+######### DO NOT EDIT ABOVE #########
+>>>>>>> 9b189e3074a19b8dd7ccfbbf9fc2ef617e555f62
