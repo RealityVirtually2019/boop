@@ -5,14 +5,13 @@ using UnityEngine.XR.MagicLeap;
 
 public class ProjectileLauncher : MonoBehaviour
 {
-
     [SerializeField]
-    private GameObject p1, p2, p3;
+    private GameObject p1, p2, p3, p4;
     public int selectedProjectile = 1;
     [SerializeField]
     private float forceAmount;
     [SerializeField]
-    private Transform l1, l2, l3;
+    private Transform l1, l2, l3, l4;
 
     public DadyClient DC;
 
@@ -27,6 +26,7 @@ public class ProjectileLauncher : MonoBehaviour
     }
     private void Update()
     {
+
         if (Input.GetKeyDown(KeyCode.Space))
         {
             LaunchObject();
@@ -44,30 +44,13 @@ public class ProjectileLauncher : MonoBehaviour
         {
             selectedProjectile = 3;
         }
+        else if (Input.GetKeyDown(KeyCode.Alpha4))
+        {
+            selectedProjectile = 4;
+        }
     }
 
-    private void OnTriggerEnter(Collider other)
-    {
-        if (this.name == "1")
-        {
-            selectedProjectile = 1;
-            DC.actionType = 1;
-            LaunchObject();
-        }
-        else if (this.name == "2")
-        {
-            selectedProjectile = 2;
-            DC.actionType = 2;
-            LaunchObject();
-        }
-        else if (this.name == "3")
-        {
-            selectedProjectile = 3;
-            DC.actionType = 3;
-            LaunchObject();
-        }
-    }
-        public void LaunchObject()
+    public void LaunchObject()
     {
         // Spawn projectile and play corresponding sound:
         GameObject spawned;
@@ -111,6 +94,14 @@ public class ProjectileLauncher : MonoBehaviour
             rigidObject = spawned.GetComponent<Rigidbody>();
             Vector3 forceVector = l3.forward;
             rigidObject.AddForce(forceVector * forceAmount, ForceMode.Impulse);
+        }
+        else if (selectedProjectile == 4)
+        {
+            // DROP EGG:
+            spawned = Instantiate(p4);
+            GetComponent<AudioSource>().PlayOneShot(launchSound);
+            // Launch projectile from source:
+            spawned.transform.position = l4.position;
         }
         else
         {

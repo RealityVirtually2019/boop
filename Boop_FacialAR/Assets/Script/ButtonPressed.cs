@@ -25,19 +25,5 @@ public class ButtonPressed : MonoBehaviour {
             DC.actionType = 3;
             PL.LaunchObject();
         }
-        else if (this.name == "4")
-        {
-            // DROP EGG
-        }
-        else if (this.name == "5")
-        {
-            // Baby face:
-            DC.faceType = 1;
-        }
-        else if (this.name == "6")
-        {
-            // Chicken face:
-            DC.faceType = 2;
-        }
     }
 }
