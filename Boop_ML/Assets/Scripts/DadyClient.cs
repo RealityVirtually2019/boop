@@ -53,8 +53,24 @@ public class DadyClient : MonoBehaviour
         // Update Face Rotation 
         // Vector3
 
-        SetTransform(input, output);
+        //SetTransform(input, output);
         //getData();
+    }
+
+    private void Start()
+    {
+        StartCoroutine(SetData());
+    }
+
+    public IEnumerator SetData()
+    {
+        while (true)
+        {
+            print("fetching");
+            StartCoroutine(Set(input, output));
+            yield return new WaitForSeconds(1);
+        }
+
     }
 
     public static Vector3 GetStaticInput()
