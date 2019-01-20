@@ -9,14 +9,12 @@ public class Controller : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
         MLInput.Start();
-
         _controller = MLInput.GetController(MLInput.Hand.Left);
 	}
 
     void OnDestroy()
     {
         MLInput.Stop();
-
     }
 
     // Update is called once per frame
