@@ -27,8 +27,8 @@ public class GetBlendShapeClient : MonoBehaviour {
     {
         // Apply Iphone X data to ML chicken head 
         chickenHead.transform.rotation = Quaternion.Euler(localData.pos);
-        chickenEyeL.transform.rotation = Quaternion.Euler(localData.rot);
-        chickenEyeR.transform.rotation = Quaternion.Euler(localData.rot);
+        chickenEyeL.transform.rotation = Quaternion.Euler(localData.pos);
+        chickenEyeR.transform.rotation = Quaternion.Euler(localData.pos);
     }
 
     public IEnumerator GetData()

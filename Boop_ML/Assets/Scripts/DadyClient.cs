@@ -18,7 +18,7 @@ public class DadyClient : MonoBehaviour
 
     // Inputs 
     public int actionType;
-    public int faceType;
+    public int faceType = 1;
     public int soundType;
 
     // Outputs 

@@ -761,6 +761,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 381602241}
+  - component: {fileID: 381602242}
   m_Layer: 0
   m_Name: Controller
   m_TagString: Untagged
@@ -782,6 +783,17 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &381602242
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 381602240}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ef89464ac58d3d4a879d54338203d62, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &454379016
 GameObject:
   m_ObjectHideFlags: 0
@@ -1302,13 +1314,15 @@ MonoBehaviour:
   p1: {fileID: 1686547953616328, guid: cff661e2ab7fa2142abee9352903fa61, type: 2}
   p2: {fileID: 1610190216708216, guid: a5093272b214663449a97949719deb43, type: 2}
   p3: {fileID: 1686547953616328, guid: cff661e2ab7fa2142abee9352903fa61, type: 2}
+  p4: {fileID: 0}
   selectedProjectile: 1
   forceAmount: 10
   l1: {fileID: 454379017}
   l2: {fileID: 2003909427}
   l3: {fileID: 2021775942}
-  DC: {fileID: 1155857086}
+  l4: {fileID: 0}
   launchSound: {fileID: 8300000, guid: da3de9c92eeabe44c9505f8bf0669338, type: 3}
+  DC: {fileID: 1155857086}
 --- !u!82 &1155857084
 AudioSource:
   m_ObjectHideFlags: 0
@@ -1438,6 +1452,7 @@ MonoBehaviour:
   soundType: 0
   reactionVal: 0
   gameState: 0
+  shootingState: 0
 --- !u!114 &1155857087
 MonoBehaviour:
   m_ObjectHideFlags: 0

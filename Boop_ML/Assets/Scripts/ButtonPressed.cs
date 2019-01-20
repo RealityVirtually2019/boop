@@ -6,6 +6,8 @@ public class ButtonPressed : MonoBehaviour {
     public DadyClient DC;
     public ProjectileLauncher PL;
     bool runOnced = false;
+    public GameObject babyFace, chickenFace;
+
     private void OnTriggerEnter(Collider other)
     {
         if (!runOnced)
@@ -35,27 +37,43 @@ public class ButtonPressed : MonoBehaviour {
             else if (this.name == "4")
             {
                 // DROP EGG
+                PL.selectedProjectile = 4;
+                DC.actionType = 4;
                 DC.shootingState = 1;
+                PL.LaunchObject();
+
             }
             else if (this.name == "5")
             {
                 // Baby face:
                 DC.faceType = 1;
                 DC.shootingState = 1;
+                babyFace.SetActive(true);
+                chickenFace.SetActive(false);
+                gameObject.SetActive(false);
             }
             else if (this.name == "6")
             {
                 // Chicken face:
                 DC.faceType = 2;
                 DC.shootingState = 1;
-            }
-            //runOnced = true;
+                chickenFace.SetActive(true);
+                babyFace.SetActive(false);
+                gameObject.SetActive(false);
+            } 
         }
         
     }
     void OnTriggerExit(Collider other)
     {
-        DC.shootingState = 0;
-        //runOnced = false;
+        StartCoroutine(WaitForIt());
     }
+
+    IEnumerator WaitForIt()
+    {
+        yield return new WaitForSeconds(2);
+        DC.shootingState = 0;
+        runOnced = false;
+    }
+
 }
