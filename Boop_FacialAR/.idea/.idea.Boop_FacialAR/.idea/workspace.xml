@@ -3,16 +3,43 @@
   <component name="ChangeListManager">
     <list default="true" id="3e328cd1-4950-4805-bfb2-42a101b54e16" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Boop_FacialAR/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Boop_FacialAR/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Chicken 1.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Chicken 1.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Chicken.controller" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Chicken_AnimatedTextured.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Chicken_IPhone.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Chicken_blendshapes_v03.ma" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/facial-ar-remote/Examples/Scenes/SlothBlendShapes.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/facial-ar-remote/Examples/Scenes/SlothBlendShapes.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Fish.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Fish.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Flipflop.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Flipflop.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/steak.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/steak.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/ButtonPressed.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Documentation/TextMesh Pro User Guide 2016.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Drop Shadow.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Outline.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Shaders/TMP_Bitmap-Custom-Atlas.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Shaders/TMP_Bitmap-Mobile.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Shaders/TMP_Bitmap.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Shaders/TMP_SDF Overlay.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Shaders/TMP_SDF-Mobile Masking.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Shaders/TMP_SDF-Mobile Overlay.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Shaders/TMP_SDF-Mobile.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Shaders/TMP_SDF-Surface-Mobile.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Shaders/TMP_SDF-Surface.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Shaders/TMP_SDF.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Shaders/TMP_Sprite.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Shaders/TMPro.cginc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Shaders/TMPro_Properties.cginc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Shaders/TMPro_Surface.cginc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/TMP Settings.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Sprites/EmojiOne.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Sprites/EmojiOne.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/facial-ar-remote/Examples/Scenes/SlothBlendShapes.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/facial-ar-remote/Examples/Scenes/SlothBlendShapes.unity.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/facial-ar-remote/Remote/Scene/Client.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/facial-ar-remote/Remote/Scene/Client.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/facial-ar-remote/Remote/Scripts/BlendShapesController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/facial-ar-remote/Remote/Scripts/BlendShapesController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Boop_ML/Assets/Scenes/MLTester.unity" beforeDir="false" afterPath="$PROJECT_DIR$/../Boop_ML/Assets/Scenes/MLTester.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Boop_ML/ProjectSettings/ProjectVersion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Boop_ML/ProjectSettings/ProjectVersion.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Boop_ML/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/../Boop_ML/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,45 +51,38 @@
     <session id="1140356751">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="5" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.5" value="2" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.open.time.7" value="2" />
+          <entry key="project.opened" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="cs" value="2" />
+          <entry key="cs" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="C#" value="2" />
+          <entry key="C#" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cs" value="9" />
+          <entry key="cs" value="476" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="C#" value="9" />
+          <entry key="C#" value="476" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/facial-ar-remote/DadyClient.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="15" selection-start-line="21" selection-start-column="15" selection-end-line="21" selection-end-column="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/facial-ar-remote/Remote/Scripts/CharacterRigController.cs">
           <provider selected="true" editor-type-id="text-editor">
@@ -75,17 +95,77 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/facial-ar-remote/Remote/Scripts/StreamReader.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="89" column="37" selection-start-line="89" selection-start-column="20" selection-end-line="89" selection-end-column="37" />
+            <state relative-caret-position="672">
+              <caret line="72" column="48" selection-start-line="72" selection-start-column="37" selection-end-line="72" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Script/SetBlendShapeData.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="672">
+              <caret line="64" column="48" selection-start-line="64" selection-start-column="48" selection-end-line="64" selection-end-column="48" />
+              <folding>
+                <marker date="1547959233980" expanded="true" signature="6:78" ph="..." />
+                <marker date="1547959233980" expanded="true" signature="141:2623" ph="{...}" />
+                <marker date="1547959233980" expanded="true" signature="201:269" ph="{...}" />
+                <marker date="1547959233980" expanded="true" signature="1239:1247" ph="{...}" />
+                <marker date="1547959233980" expanded="true" signature="1273:1320" ph="{...}" />
+                <marker date="1547959233980" expanded="true" signature="1354:1540" ph="{...}" />
+                <marker date="1547959233980" expanded="true" signature="1381:1533" ph="{...}" />
+                <marker date="1547959233980" expanded="true" signature="1570:1612" ph="{...}" />
+                <marker date="1547959233980" expanded="true" signature="1644:1686" ph="{...}" />
+                <marker date="1547959233980" expanded="true" signature="1742:1793" ph="{...}" />
+                <marker date="1547959233980" expanded="true" signature="1874:2620" ph="{...}" />
+                <marker date="1547959233980" expanded="true" signature="2453:2547" ph="{...}" />
+                <marker date="1547959233980" expanded="true" signature="2560:2614" ph="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/ProjectileLauncher.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1452">
+              <caret line="173" column="9" lean-forward="true" selection-start-line="173" selection-start-column="9" selection-end-line="173" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/DadyClient.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="21" column="25" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/GetBlendShapeClient.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-319">
+              <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="67" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/ButtonPressed.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/facial-ar-remote/Remote/Scripts/BlendShapesController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="239">
-              <caret line="195" column="75" selection-start-line="195" selection-start-column="75" selection-end-line="195" selection-end-column="75" />
+            <state relative-caret-position="2925">
+              <caret line="195" column="71" selection-start-line="195" selection-start-column="71" selection-end-line="195" selection-end-column="71" />
             </state>
           </provider>
         </entry>
@@ -97,21 +177,38 @@
       <find>eye</find>
       <find>m_driveeyes = true</find>
       <find>m_driveeyes</find>
+      <find>blendshapebuffer</find>
+      <find>blendshapesbuffer</find>
+      <find>blendshapes</find>
+      <find>blendshape</find>
+      <find>p1</find>
+      <find>p2</find>
+      <find>p3</find>
+      <find>p4</find>
+      <find>chicken</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Assets/facial-ar-remote" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/facial-ar-remote/DadyClient.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Script/SetBlendShapeData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ButtonPressed.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/facial-ar-remote/Remote/Scripts/StreamReader.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/facial-ar-remote/Remote/Scripts/CharacterRigController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ProjectileLauncher.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/facial-ar-remote/Remote/Scripts/CharacterRigController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GetBlendShapeClient.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/DadyClient.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/facial-ar-remote/Remote/Scripts/BlendShapesController.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/facial-ar-remote/Remote/Scripts/BlendShapesController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/SetBlendShapeData.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/ButtonPressed.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GetBlendShapeClient.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ProjectileLauncher.cs" />
       </list>
     </option>
   </component>
@@ -136,10 +233,10 @@
       <pane id="SolutionExplorer">
         <option name="show-all-files" value="false" />
       </pane>
-      <pane id="FileSystemExplorer" />
       <pane id="UnityExplorer">
         <option name="show-hidden-items" value="false" />
       </pane>
+      <pane id="FileSystemExplorer" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -171,12 +268,15 @@
       <updated>1547916317855</updated>
       <workItem from="1547916321859" duration="93000" />
       <workItem from="1547951287255" duration="708000" />
-      <workItem from="1547953799687" duration="308000" />
+      <workItem from="1547953799687" duration="1327000" />
+      <workItem from="1547958831688" duration="1303000" />
+      <workItem from="1547967702671" duration="349000" />
+      <workItem from="1547968543269" duration="2092000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1109000" />
+    <option name="totallyTimeSpent" value="5872000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -191,7 +291,7 @@
     <frame x="20" y="43" width="1400" height="833" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2569956" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26804122" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -234,6 +334,9 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Assets/Script/DataClient.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Script/DataVis.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Script/ButtonPressed.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/facial-ar-remote/DadyClient.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
@@ -248,17 +351,74 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/facial-ar-remote/Remote/Scripts/StreamReader.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/facial-ar-remote/Remote/Scripts/BlendShapesController.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="89" column="37" selection-start-line="89" selection-start-column="20" selection-end-line="89" selection-end-column="37" />
+        <state relative-caret-position="2925">
+          <caret line="195" column="71" selection-start-line="195" selection-start-column="71" selection-end-line="195" selection-end-column="71" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/facial-ar-remote/Remote/Scripts/BlendShapesController.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/ButtonPressed.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="195" column="75" selection-start-line="195" selection-start-column="75" selection-end-line="195" selection-end-column="75" />
+        <state relative-caret-position="60">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Controller.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="4" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/GetBlendShapeClient.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-319">
+          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="67" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/DadyClient.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="21" column="25" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/facial-ar-remote/Remote/Scripts/StreamReader.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="672">
+          <caret line="72" column="48" selection-start-line="72" selection-start-column="37" selection-end-line="72" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Script/SetBlendShapeData.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="672">
+          <caret line="64" column="48" selection-start-line="64" selection-start-column="48" selection-end-line="64" selection-end-column="48" />
+          <folding>
+            <marker date="1547959233980" expanded="true" signature="6:78" ph="..." />
+            <marker date="1547959233980" expanded="true" signature="141:2623" ph="{...}" />
+            <marker date="1547959233980" expanded="true" signature="201:269" ph="{...}" />
+            <marker date="1547959233980" expanded="true" signature="1239:1247" ph="{...}" />
+            <marker date="1547959233980" expanded="true" signature="1273:1320" ph="{...}" />
+            <marker date="1547959233980" expanded="true" signature="1354:1540" ph="{...}" />
+            <marker date="1547959233980" expanded="true" signature="1381:1533" ph="{...}" />
+            <marker date="1547959233980" expanded="true" signature="1570:1612" ph="{...}" />
+            <marker date="1547959233980" expanded="true" signature="1644:1686" ph="{...}" />
+            <marker date="1547959233980" expanded="true" signature="1742:1793" ph="{...}" />
+            <marker date="1547959233980" expanded="true" signature="1874:2620" ph="{...}" />
+            <marker date="1547959233980" expanded="true" signature="2453:2547" ph="{...}" />
+            <marker date="1547959233980" expanded="true" signature="2560:2614" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/ProjectileLauncher.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1452">
+          <caret line="173" column="9" lean-forward="true" selection-start-line="173" selection-start-column="9" selection-end-line="173" selection-end-column="9" />
         </state>
       </provider>
     </entry>
