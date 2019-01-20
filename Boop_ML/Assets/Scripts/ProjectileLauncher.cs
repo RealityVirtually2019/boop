@@ -5,6 +5,12 @@ using UnityEngine.XR.MagicLeap;
 
 public class ProjectileLauncher : MonoBehaviour
 {
+    [System.Serializable]
+    public class JsonTransform
+    {
+        public Vector3 pos;
+        public Vector3 rot;
+    }
     [SerializeField]
     private GameObject p1, p2, p3, p4;
     public int selectedProjectile = 1;
@@ -12,43 +18,88 @@ public class ProjectileLauncher : MonoBehaviour
     private float forceAmount;
     [SerializeField]
     private Transform l1, l2, l3, l4;
+    [SerializeField]
+    private AudioClip launchSound;
 
     public DadyClient DC;
 
     Rigidbody rigidObject;
+    
 
-    // Launcher sound effects
-    [SerializeField]
-    private AudioClip launchSound;
+    private JsonTransform localData = new JsonTransform();
 
-    private void Start()
-    {
-    }
     private void Update()
     {
+        if (localData.rot.z == 1)
+            if (Input.GetKeyDown(KeyCode.Space))
+            {
+                LaunchObject();
+            }
 
-        if (Input.GetKeyDown(KeyCode.Space))
-        {
-            LaunchObject();
-        }
-
-        if (Input.GetKeyDown(KeyCode.Alpha1))
+        if (localData.pos.x == 1)
         {
             selectedProjectile = 1;
         }
-        else if (Input.GetKeyDown(KeyCode.Alpha2))
+        else if (localData.pos.x == 2)
         {
             selectedProjectile = 2;
         }
-        else if (Input.GetKeyDown(KeyCode.Alpha3))
+        else if (localData.pos.x == 3)
         {
             selectedProjectile = 3;
         }
-        else if (Input.GetKeyDown(KeyCode.Alpha4))
+        else if (localData.pos.x == 4)
         {
             selectedProjectile = 4;
         }
     }
+
+    private void Start()
+    {
+        StartCoroutine(GetData());
+    }
+    
+
+    public IEnumerator GetData()
+    {
+        while (true)
+        {
+            print("fetching");
+            StartCoroutine(Get());
+            yield return new WaitForSeconds(1);
+        }
+
+    }
+
+    IEnumerator Get()
+    {
+        WWW www;
+
+        string url = "http://internal.mcmentos.com/getTransform2";
+        www = new WWW(url);
+
+        yield return www;
+
+        if (www.error == "" || www.error == null)
+        {
+            Debug.Log("Get succeeded!");
+            Debug.Log(www.text);
+            JsonTransform t = JsonUtility.FromJson<JsonTransform>(www.text);
+            localData.pos = t.pos;
+            localData.rot = t.rot;
+            print("networked p" + localData.pos);
+            print("networked r" + localData.rot);
+            Debug.Log(localData.pos);
+        }
+        else
+        {
+            Debug.Log(www.error);
+        }
+    }
+
+
+
+   
 
     public void LaunchObject()
     {

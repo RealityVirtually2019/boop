@@ -24,7 +24,7 @@ public class DadyClient : MonoBehaviour
     // Outputs 
     public int reactionVal;
     public int gameState;
-    // public int ...
+    public int shootingState;
 
 
     void Update()
@@ -37,7 +37,7 @@ public class DadyClient : MonoBehaviour
         // Update IPhoneXOutput 
         output.x = reactionVal;
         output.y = gameState;
-        //output.z = ...;
+        output.z = shootingState;
 
         // Update Blendshape  
         // float1
