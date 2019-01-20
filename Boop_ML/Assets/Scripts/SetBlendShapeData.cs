@@ -17,6 +17,9 @@ public class SetBlendShapeData : MonoBehaviour
     public Vector3 headRot;
     public Vector3 eyeRot;
 
+    public GameObject chickenHead;
+    public GameObject chickenEye;
+
     // Eye Rot 
     public int eyeRotX;
     public int eyeRotY;
@@ -44,6 +47,8 @@ public class SetBlendShapeData : MonoBehaviour
         eyeRot.z = eyeRotZ;
 
         //SetTransform(headRot, eyeRot);
+        headRot = new Vector3(chickenHead.transform.rotation.x, chickenHead.transform.rotation.y, chickenHead.transform.rotation.z);
+        eyeRot = new Vector3(chickenEye.transform.rotation.x, chickenEye.transform.rotation.y, chickenEye.transform.rotation.z);
     }
 
     private void Start()
